@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from './components/ui/button'
-import Header from './components/custom/header.jsx'
+import Header from './components/custom/Header.jsx'
 import { Outlet , Navigate } from 'react-router-dom'
 import { useUser } from '@clerk/clerk-react';
 import { Toaster } from '@/components/ui/sonner'
